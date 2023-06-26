@@ -1,0 +1,31 @@
+body {
+    background-color: blanchedalmond;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: dotted red;
+    background-color: aliceblue;
+}
+
+#top-row, #bottom-row {
+    display: flex;
+    flex-direction: row;
+}
+.card-container {
+    display:flex;
+    flex-direction: column;
+    border: solid;
+    width: 400px;
+    height: 400px;
+}
+
+section figure h2 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: dotted red;
+}
